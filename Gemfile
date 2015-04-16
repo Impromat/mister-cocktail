@@ -25,6 +25,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 gem 'rspec-rails', group: [ :test ]
 
+
+ruby '2.2.0'
+
+gem 'rails_12factor', group: :production
+
+gem 'puma',           group: :production
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
